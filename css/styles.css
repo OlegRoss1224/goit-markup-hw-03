@@ -60,10 +60,10 @@ body {
   border-bottom: 1px solid #e7e9fc;
   width: 1440px;
   height: 72px;
-  display: flex;
 }
 .page-nav {
   align-items: center;
+  display: flex;
 }
 .page-logo {
   font-family: 'Raleway', sans-serif;
