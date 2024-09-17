@@ -163,7 +163,7 @@ body {
 .description-section {
   padding: 120px 0;
 }
-.dscripetion-item {
+.description-item {
   width: calc((100% - 72px) / 4);
   width: 264px;
   height: 104px;
