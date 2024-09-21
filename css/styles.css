@@ -215,8 +215,7 @@ body {
   text-align: center;
   color: #2e4230;
   text-transform: capitalize;
-  max-width: 164px;
-  height: 40px;
+
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
@@ -229,7 +228,6 @@ body {
 .team-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
 }
 .team-img {
   background: url('path_to_image');
@@ -273,8 +271,6 @@ body {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  max-width: 219px;
-  height: 40px;
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
