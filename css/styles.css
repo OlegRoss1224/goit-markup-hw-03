@@ -59,8 +59,8 @@ body {
 /* ================ HEADER STYLES ================ */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container-header {
   display: flex;
@@ -130,7 +130,6 @@ body {
 .hero-section {
   background-color: #2e2f42;
   padding: 188px 0;
-  max-width: 1440px;
 }
 .main-title {
   font-family: 'Roboto', sans-serif;
@@ -142,9 +141,9 @@ body {
   color: #fff;
   background-color: #2e2f42;
   max-width: 496px;
-  height: auto;
   margin-bottom: 58px;
-  margin-left: 330px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .order-service-btn {
   font-family: 'Roboto', sans-serif;
@@ -158,9 +157,10 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin-left: 500px;
   cursor: pointer;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .order-service-btn:hover,
 .order-service-btn:focus {
@@ -171,11 +171,10 @@ body {
 /* ================ DESCRIPTION STYLES ================ */
 .description-section {
   padding: 120px 0;
-  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.description-container {
-  margin-left: 141px;
-}
+
 .description-item {
   flex-basis: calc((100% - 72px) / 4);
 }
@@ -203,9 +202,10 @@ body {
 /* ================ TEAM STYLES ================ */
 .team-section {
   background: #f4f4fd;
-  width: 1443px;
-  height: 732px;
+
   padding: 120px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .team-title {
   font-weight: 700;
@@ -225,7 +225,6 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .team-item {
   width: calc((100% - 72px) / 4);
@@ -265,9 +264,7 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio-container {
-  margin-left: 141px;
-}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -322,8 +319,6 @@ body {
 
 /* ================ FOOTER STYLES ================ */
 .page-footer {
-  width: 1440px;
-  height: 312px;
   padding: 100px 0;
 }
 .footer-logo {
