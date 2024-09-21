@@ -160,6 +160,7 @@ body {
   border-radius: 4px;
   margin-left: 500px;
   cursor: pointer;
+  display: block;
 }
 .order-service-btn:hover,
 .order-service-btn:focus {
@@ -261,12 +262,12 @@ body {
 
 /* ================ PORTFOLIO STYLES ================ */
 .portfolio-section {
-  width: 1145px;
-  height: 1120px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
+.portfolio-container {
+  margin-left: 141px;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -316,8 +317,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 30px;
-  padding-top: 10px;
 }
 /* ================ /PORTFOLIO STYLES ================ */
 
@@ -337,6 +336,7 @@ body {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+  max-width: 115px;
 }
 .footer-text {
   font-family: 'Roboto', sans-serif;
@@ -345,6 +345,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .page-footer {
   background: #2e2f42;
